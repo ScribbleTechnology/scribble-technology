@@ -6,12 +6,18 @@ import { AppComponent } from './app.component';
 import {AlertModule} from "ngx-bootstrap";
 import {HomeComponent} from "./home/home.component";
 import {TopNavComponent} from "./top-nav/top-nav.component";
+import {TutorialsComponent} from "./tutorials/tutorials.component";
+import {FooterComponent} from "./footer/footer.component";
+import {AboutComponent} from "./about/about.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    TopNavComponent
+    TopNavComponent,
+    TutorialsComponent,
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

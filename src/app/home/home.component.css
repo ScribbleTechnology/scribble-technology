@@ -1,4 +1,9 @@
 img {
-  width: 100%;
+  position: relative;
+  width: 100%; /* for IE 6 */
+
+
   margin-top: -23px;
+  opacity: 0.80;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
 }
